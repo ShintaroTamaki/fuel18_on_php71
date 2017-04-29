@@ -77,10 +77,32 @@ Time: 912 ms, Memory: 14.00MB
 
 There were 3 failures:
 ```
+<br>
+ググるとforumにあり、<br>
+https://fuelphp.com/forums/discussion/14087/test-failures-in-fresh-project<br>
+fuel/core にこんな修正が・・・<br>
+https://github.com/fuel/core/commit/c28a83a2e1cfa32a88ed5c1a93a79de3547a873e<br>
+手動でマージ！テスト<br>
 
-fuel/core にこんな修正が・・・
-https://github.com/fuel/core/commit/c28a83a2e1cfa32a88ed5c1a93a79de3547a873e
-次の課題は手動マージ！？
+```
+$ php oil test
+Tests Running...This may take a few moments.
+PHPUnit 5.7.19 by Sebastian Bergmann and contributors.
+
+...............................................................  63 / 420 ( 15%)
+............................................................... 126 / 420 ( 30%)
+............................................................... 189 / 420 ( 45%)
+............................................................... 252 / 420 ( 60%)
+............................................................... 315 / 420 ( 75%)
+............................................................... 378 / 420 ( 90%)
+..........................................                      420 / 420 (100%)
+
+Time: 894 ms, Memory: 14.00MB
+
+OK (420 tests, 516 assertions)
+```
+通った！<br>
+以上です。
 
 
 # 参考
