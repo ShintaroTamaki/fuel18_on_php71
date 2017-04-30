@@ -106,6 +106,6 @@ OK (420 tests, 516 assertions)
 
 
 # 参考
-[PHP7でFuelPHPを使うぞ！！](http://tech-blog.shucream.net/entry/2016/02/01/210559)
-[FuelPHP でユニットテスト + カバレッジ取得](http://qiita.com/hira3/items/f14bbc64b6a01d575e57)
+[PHP7でFuelPHPを使うぞ！！](http://tech-blog.shucream.net/entry/2016/02/01/210559)<br>
+[FuelPHP でユニットテスト + カバレッジ取得](http://qiita.com/hira3/items/f14bbc64b6a01d575e57)<br>
 [FuelPHPでPHPUnitを使用するときに'PHPUnit_Framework_TestCase' not found って出た](http://tomomik.hatenablog.com/entry/2017/03/12/074003)
